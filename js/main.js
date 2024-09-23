@@ -340,7 +340,7 @@
 		else if( direction === 'Down' && prevSelectedLevel < mallLevelsTotal ) {
 			++selectedLevel;
 		}
-		else {
+		else {			
 			isNavigating = false;	
 			return false;
 		}
@@ -524,4 +524,10 @@
 	
 	init();
 
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const etageStr = urlParams.get('etage');
+	const etage = Number(etageStr)
+	
+	showLevel(etage+1)	
 })(window);
