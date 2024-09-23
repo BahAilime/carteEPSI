@@ -8,8 +8,8 @@
 
 .levels img {
 	width: 100%;
-	scale: 1.5;
-	rotate: 90deg;
+	/* scale: 1.2; */
+	/* rotate: 90deg; */
 	/* height: ; */
 }
 
@@ -249,10 +249,11 @@ button:focus {
 }
 
 .level::after {
+	width: 200px;
 	font-size: 2.5vmin;
 	line-height: 0;
 	position: absolute;
-	z-index: 100;
+	z-index: -1;
 	top: -2em;
     left: 3.5em;
 	white-space: nowrap;
@@ -276,19 +277,20 @@ button:focus {
 }
 
 .level--1::after {
-	content: 'L1';
+	content: 'Étage 1: EPSI / ICL / IDRAC / IFAG / WIS /';
 }
 
 .level--2::after {
-	content: 'L2';
+	content: 'Étage 1: ICL / IEFT / IFAG / IGEFI';
+
 }
 
 .level--3::after {
-	content: 'L3';
+	content: 'Étage 2: EPSI / WIS';
 }
 
 .level--4::after {
-	content: 'L4';
+	content: 'Étage 3: IDRAC / IET / SUP DE COM';
 }
 
 .level:not(:first-child) {
@@ -375,6 +377,8 @@ button:focus {
 	-webkit-transform: translateZ(15vmin) rotate3d(0,0,1,20deg);
 	/* go to center */
 	transform: translateZ(15vmin) rotate3d(0,0,1,20deg);
+	transform: translateZ(9vmin) rotate3d(-0.5,-0.5,1,50deg);
+
 }
 
 /* Navigation classes */
