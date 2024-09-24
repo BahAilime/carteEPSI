@@ -8,6 +8,8 @@
 
 .levels img {
 	width: 100%;
+	z-index: -100;
+	position: relative;
 	/* scale: 1.2; */
 	/* rotate: 90deg; */
 	/* height: ; */
@@ -73,7 +75,7 @@ button:focus {
 }
 
 .container {
-	position: relative;
+	/* position: relative; */
 	width: 100vw;
 	height: 100vh;
 }
@@ -170,7 +172,7 @@ button:focus {
 }
 
 .mall {
-	position: relative;
+	/* position: relative; */
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
@@ -219,8 +221,8 @@ button:focus {
 }
 
 .levels {
-	width: 96vmin;
-	height: 64vmin;
+	width: 120vmin;
+	height: 84vmin;
 	margin: -32vmin 0 0 -48vmin;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
@@ -248,17 +250,17 @@ button:focus {
 	transform-style: preserve-3d;
 }
 
-.level::after {
-	width: 200px;
+.level__title {
+	width: 350px;
+	position: relative;
 	font-size: 2.5vmin;
 	line-height: 0;
 	position: absolute;
-	z-index: -1;
-	top: -2em;
-    left: 3.5em;
+	z-index: 1000000000;
+	top: 6em;
+    left:0em;
 	white-space: nowrap;
-	color: #7d7d86;
-	-webkit-transform: rotateZ(45deg) rotateX(-70deg) translateZ(5vmin);
+	color: #0b0490;
 	transform: rotateZ(45deg) rotateX(-70deg) translateZ(5vmin);
 	-webkit-transition: -webkit-transform 1s, color 0.3s;
 	transition: transform 1s, color 0.3s;
@@ -267,30 +269,13 @@ button:focus {
 }
 
 .level:hover::after,
-.level--current::after {
-	color: #515158;
+.level--current::after, .level__title:hover {
+	color: #020254;
 }
 
-.level--current::after {
-	-webkit-transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg) translateZ(5vmin) translateX(5vmin) translateY(-10vmin);
-	transform: rotateZ(-20deg) rotateZ(45deg) rotateX(-70deg) translateZ(5vmin) translateX(5vmin) translateY(-10vmin);
-}
-
-.level--1::after {
-	content: 'Étage 1: EPSI / ICL / IDRAC / IFAG / WIS /';
-}
-
-.level--2::after {
-	content: 'Étage 1: ICL / IEFT / IFAG / IGEFI';
-
-}
-
-.level--3::after {
-	content: 'Étage 2: EPSI / WIS';
-}
-
-.level--4::after {
-	content: 'Étage 3: IDRAC / IET / SUP DE COM';
+.level--current .level__title{
+	-webkit-transform: rotateZ(-20deg) rotateZ(35deg) rotateX(-55deg) translateZ(5vmin) translateX(5vmin) translateY(-10vmin);
+	transform: rotateZ(-20deg) rotateZ(35deg) rotateX(-55deg) translateZ(5vmin) translateX(5vmin) translateY(-23vmin);
 }
 
 .level:not(:first-child) {
@@ -300,18 +285,18 @@ button:focus {
 }
 
 .level--2 {
-	-webkit-transform: translateZ(10vmin);
-	transform: translateZ(10vmin);
+	-webkit-transform: translateZ(15vmin);
+	transform: translateZ(15vmin);
 }
 
 .level--3 {
-	-webkit-transform: translateZ(20vmin);
-	transform: translateZ(20vmin);
+	-webkit-transform: translateZ(30vmin);
+	transform: translateZ(30vmin);
 }
 
 .level--4 {
-	-webkit-transform: translateZ(30vmin);
-	transform: translateZ(30vmin);
+	-webkit-transform: translateZ(45vmin);
+	transform: translateZ(45vmin);
 }
 
 
