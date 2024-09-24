@@ -8,7 +8,14 @@
  * Copyright 2016, Codrops
  * http://www.codrops.com
  */
-;(function(window) {
+
+function isNumeric(str) {
+	if (typeof str != "string") return false // we only process strings!  
+	return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
+		   !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
+  }
+
+(function(window) {
 
 	'use strict';
 
@@ -527,7 +534,7 @@
 	const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
 	const etageStr = urlParams.get('etage');
-	const etage = Number(etageStr)
+	const etage = isNumeric(etageStr) ? Number(etageStr) : -1;
 	
-	showLevel(etage+1)	
+	showLevel(etage+1)
 })(window);
