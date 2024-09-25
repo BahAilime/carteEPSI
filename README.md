@@ -17,3 +17,21 @@ Ce projet est évolutif et prévoit plusieurs fonctionnalités :
 - Scanner un QR code dans les bâtiments pour trouver sa position actuelle, croiser les données avec le planning, et ainsi connaître le chemin vers la salle où il a cours.
 - Indiquer une salle : les professeurs, les équipes pédagogiques ou les élèves peuvent ajouter des informations en direct. Par exemple, si une salle n'a pas encore été attribuée, un élève ayant l'information peut la rentrer directement dans l'application.
 - Des fonctionnalités futures sont envisagées, comme des boîtiers domotisés disposés un peu partout dans les bâtiments, permettant de trianguler la position et ainsi éviter l’utilisation des QR codes.
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
