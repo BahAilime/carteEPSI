@@ -206,7 +206,7 @@ const sortNodes = (nodes) => {
   return categories;
 };
 
-const sortedNodes = sortNodes(shortestPath(graph,'002', '207').nodes);
+const sortedNodes = sortNodes(shortestPath(graph,'002', '106').nodes);
 
 console.log(sortedNodes);
 </script>
@@ -218,55 +218,55 @@ console.log(sortedNodes);
       <Path :coordinates="spotsToCoordinates(sortedNodes.category0)" />
       <img src="../../img/E1.png" alt="">
       <div class="level__pins">
-        <a class="pin pin--1-1" data-category="1" data-space="1.01" href="#" aria-label="Pin for Apple Heart">
+        <a class="pin pin--1-1" data-category="4" data-space="1.01" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--appleheart"><use xlink:href="#icon-appleheart"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-2" data-category="1" data-space="1.02" href="#" aria-label="Pin for Crazy Banana">
+        <a class="pin pin--1-2" data-category="4" data-space="1.02" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--bananas"><use xlink:href="#icon-bananas"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-3" data-category="2" data-space="1.03" href="#" aria-label="Pin for Folding Life">
+        <a class="pin pin--1-3" data-category="4" data-space="1.03" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--origami"><use xlink:href="#icon-origami"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-4" data-category="3" data-space="1.04" href="#" aria-label="Pin for Dress me not">
+        <a class="pin pin--1-4" data-category="2" data-space="1.04" href="#" aria-label="SUP'DE COM">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--dress"><use xlink:href="#icon-dress"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-5" data-category="4" data-space="1.05" href="#" aria-label="Pin for Meditation Garden">
+        <a class="pin pin--1-5" data-category="2" data-space="1.05" href="#" aria-label="SUP'DE COM">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--tree2"><use xlink:href="#icon-tree2"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-6" data-category="1" data-space="1.06" href="#" aria-label="Pin for Seed of Life">
+        <a class="pin pin--1-6" data-category="1" data-space="1.06" href="#" aria-label="Info">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--avocado"><use xlink:href="#icon-avocado"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-7" data-category="1" data-space="1.07" href="#" aria-label="Pin for Raw Delight">
+        <a class="pin pin--1-7" data-category="1" data-space="1.07" href="#" aria-label="ADV">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--cake"><use xlink:href="#icon-cake"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-8" data-category="1" data-space="1.08" href="#" aria-label="Pin for The Wizard">
+        <a class="pin pin--1-8" data-category="1" data-space="1.08" href="#" aria-label="Qualité & Pédago">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--mushroom"><use xlink:href="#icon-mushroom"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--1-9" data-category="1" data-space="1.09" href="#" aria-label="Pin for Smoothies &amp; Soul">
+        <a class="pin pin--1-9" data-category="1" data-space="1.09" href="#" aria-label="Accueil">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--pear"><use xlink:href="#icon-pear"></use></svg>
@@ -280,49 +280,49 @@ console.log(sortedNodes);
       <Path :coordinates="spotsToCoordinates(sortedNodes.category1)" />
       <img src="../../img/E2.png" alt="">
       <div class="level__pins">
-        <a class="pin pin--2-1" data-category="1" data-space="2.01" href="#" aria-label="Pin for Grilled Chipotle">
+        <a class="pin pin--2-1" data-category="3" data-space="2.01" href="#" aria-label="IFAG">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--pepper"><use xlink:href="#icon-pepper"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--2-2" data-category="2" data-space="2.02" href="#" aria-label="Pin for Rocketship Tech">
+        <a class="pin pin--2-2" data-category="3" data-space="2.02" href="#" aria-label="IFAG">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--rocket"><use xlink:href="#icon-rocket"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--2-3" data-category="2" data-space="2.03" href="#" aria-label="Pin for Which Bug?">
+        <a class="pin pin--2-3" data-category="3" data-space="2.03" href="#" aria-label="IFAG">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--bug"><use xlink:href="#icon-bug"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--2-4" data-category="3" data-space="2.04" href="#" aria-label="Pin for Cognitio">
+        <a class="pin pin--2-4" data-category="2" data-space="2.04" href="#" aria-label="IEFT">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--books"><use xlink:href="#icon-books"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--2-5" data-category="1" data-space="2.05" href="#" aria-label="Pin for The Eggplanthead">
+        <a class="pin pin--2-5" data-category="1" data-space="2.05" href="#" aria-label="IGEFI">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--eggplant"><use xlink:href="#icon-eggplant"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--2-6" data-category="1" data-space="2.06" href="#" aria-label="Pin for Superfood">
+        <a class="pin pin--2-6" data-category="2" data-space="2.06" href="#" aria-label="ICL">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--strawberry"><use xlink:href="#icon-strawberry"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--2-7" data-category="3" data-space="2.07" href="#" aria-label="Pin for No Princess">
+        <a class="pin pin--2-7" data-category="1" data-space="2.07" href="#" aria-label="BDE">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--heart"><use xlink:href="#icon-heart"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--2-8" data-category="3" data-space="2.08" href="#" aria-label="Pin for Tool Exchange">
+        <a class="pin pin--2-8" data-category="4" data-space="2.08" href="#" aria-label="MyDIL">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--wrench"><use xlink:href="#icon-wrench"></use></svg>
@@ -336,46 +336,34 @@ console.log(sortedNodes);
       <Path :coordinates="spotsToCoordinates(sortedNodes.category2)" />
       <img src="../../img/E3.png" alt="">
       <div class="level__pins">
-        <a class="pin pin--3-1" data-category="1" data-space="3.01" href="#" aria-label="Pin for Oolong House">
+        <a class="pin pin--3-1" data-category="4" data-space="3.01" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--tea"><use xlink:href="#icon-tea"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--3-2" data-category="2" data-space="3.02" href="#" aria-label="Pin for Enlightend Path">
+        <a class="pin pin--3-2" data-category="4" data-space="3.02" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--pyramid"><use xlink:href="#icon-pyramid"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--3-3" data-category="3" data-space="3.03" href="#" aria-label="Pin for What makes us walk">
+        <a class="pin pin--3-3" data-category="4" data-space="3.03" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--shoe"><use xlink:href="#icon-shoe"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--3-4" data-category="3" data-space="3.04" href="#" aria-label="Pin for Your Last Shirt">
+        <a class="pin pin--3-4" data-category="4" data-space="3.04" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--shirt"><use xlink:href="#icon-shirt"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--3-5" data-category="4" data-space="3.05" href="#" aria-label="Pin for Breathe">
+        <a class="pin pin--3-5" data-category="4" data-space="3.05" href="#" aria-label="EPSI/WIS">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--tree"><use xlink:href="#icon-tree"></use></svg>
-									</span>
-        </a>
-        <a class="pin pin--3-6" data-category="4" data-space="3.06" href="#" aria-label="Pin for Feel the Grass">
-									<span class="pin__icon">
-										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
-										<svg class="icon icon--logo icon--grass"><use xlink:href="#icon-grass"></use></svg>
-									</span>
-        </a>
-        <a class="pin pin--3-7" data-category="4" data-space="3.07" href="#" aria-label="Pin for Star Gazer">
-									<span class="pin__icon">
-										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
-										<svg class="icon icon--logo icon--star"><use xlink:href="#icon-star"></use></svg>
 									</span>
         </a>
       </div>
@@ -386,43 +374,55 @@ console.log(sortedNodes);
       <Path :coordinates="spotsToCoordinates(sortedNodes.category3)" />
       <img src="../../img/E4.png" alt="">
       <div class="level__pins">
-        <a class="pin pin--4-1" data-category="1" data-space="4.01" href="#" aria-label="Pin for Cold Soup Kitchen">
+        <a class="pin pin--4-1" data-category="2" data-space="4.01" href="#" aria-label="SUP'DE COM">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--tomato"><use xlink:href="#icon-tomato"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--4-2" data-category="2" data-space="4.02" href="#" aria-label="Pin for Docu Dome">
+        <a class="pin pin--4-2" data-category="2" data-space="4.02" href="#" aria-label="SUP'DE COM">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--cinema"><use xlink:href="#icon-cinema"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--4-3" data-category="3" data-space="4.03" href="#" aria-label="Pin for Little Artist">
+        <a class="pin pin--4-3" data-category="3" data-space="4.03" href="#" aria-label="IDRAC">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--paint-brush"><use xlink:href="#icon-paint-brush"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--4-4" data-category="4" data-space="4.04" href="#" aria-label="Pin for Sacred Symmetry">
+        <a class="pin pin--4-4" data-category="3" data-space="4.04" href="#" aria-label="IDRAC">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--modx"><use xlink:href="#icon-modx"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--4-5" data-category="4" data-space="4.05" href="#" aria-label="Pin for Hot Tub Festival">
+        <a class="pin pin--4-5" data-category="3" data-space="4.05" href="#" aria-label="IDRAC">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--droplet"><use xlink:href="#icon-droplet"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--4-6" data-category="2" data-space="4.06" href="#" aria-label="Pin for Love 2 Cook">
+        <a class="pin pin--4-6" data-category="3" data-space="4.06" href="#" aria-label="IDRAC">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--cupcake"><use xlink:href="#icon-cupcake"></use></svg>
 									</span>
         </a>
-        <a class="pin pin--4-7" data-category="2" data-space="4.07" href="#" aria-label="Pin for Permaculture Hub">
+        <a class="pin pin--4-7" data-category="3" data-space="4.07" href="#" aria-label="IDRAC">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--leafcircle"><use xlink:href="#icon-leafcircle"></use></svg>
+									</span>
+        </a>
+        <a class="pin pin--4-8" data-category="3" data-space="4.08" href="#" aria-label="IDRAC">
+									<span class="pin__icon">
+										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
+										<svg class="icon icon--logo icon--leafcircle"><use xlink:href="#icon-leafcircle"></use></svg>
+									</span>
+        </a>
+        <a class="pin pin--4-9" data-category="1" data-space="4.09" href="#" aria-label="IET">
 									<span class="pin__icon">
 										<svg class="icon icon--pin"><use xlink:href="#icon-pin"></use></svg>
 										<svg class="icon icon--logo icon--leafcircle"><use xlink:href="#icon-leafcircle"></use></svg>
