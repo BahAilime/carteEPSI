@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coordonnées des Points</title>
+  <style>
+    #myCanvas {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="myCanvas"></canvas>
+
+<script>
+  const img = new Image();
+  img.src = '../../../img/E4_way.png';
+
+  const canvas = document.getElementById('myCanvas');
+  const ctx = canvas.getContext('2d');
+
+ 
+  img.onload = function() {
+    canvas.width = img.width;
+    canvas.height = img.height;
+
+    ctx.drawImage(img, 0, 0);
+
+    canvas.addEventListener('click', function(event) {
+      const rect = canvas.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+      console.log(`x: ${x}, y: ${y}`);
+
+      let pointName = prompt('Nom du point (ex: A1, A2, ...):');
+      if (pointName) {
+        ctx.fillStyle = 'red';
+        ctx.font = '12px Arial';
+        ctx.fillText(pointName, x + 5, y - 5);
+
+        ctx.beginPath();
+        ctx.arc(x, y, 3, 0, 2 * Math.PI, false);
+        ctx.fillStyle = 'magenta';
+        ctx.fill();
+      }
+    });
+  };
+
+  img.onerror = function() {
+    console.error('L\'image n\'a pas pu être chargée. Vérifiez le chemin.');
+  };
+
+  const points = [];
+  
+  canvas.addEventListener('click', function(event) {
+    const rect = canvas.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+    
+    let pointName = prompt('Nom du point (ex: A1, A2, ...):');
+    if (pointName) {
+      points.push({ name: pointName, x: x, y: y });
+      console.log(points); 
+    }
+  });
+</script>
+
+</body>
+</html>
