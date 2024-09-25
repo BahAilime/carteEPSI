@@ -2,6 +2,9 @@
 import SearchList from "./components/SearchList.vue"
 import Description from "./components/Description.vue"
 import Campus from "./components/Campus.vue"
+import Path from "./components/Path.vue"
+
+
 </script>
 
 <template>
@@ -210,6 +213,7 @@ import Campus from "./components/Campus.vue"
         <h1>Interactive EPSI Map</h1>
       </header>
       <div class="mall">
+<!--        <Path :coordinates="[]" />-->
         <Campus />
       </div>
       <!-- /mall -->
