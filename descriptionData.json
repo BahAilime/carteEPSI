@@ -1,0 +1,10 @@
+{
+  "0": {
+    "roomName" : "Accueil",
+    "floor" : "RDC"
+  },
+  "1": {
+    "roomName" : "Caféteria",
+    "floor" : "RDC"
+  }
+}
