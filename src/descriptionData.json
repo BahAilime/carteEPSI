@@ -1,10 +1,322 @@
-{
-  "0": {
-    "roomName" : "Accueil",
-    "floor" : "RDC"
-  },
-  "1": {
-    "roomName" : "Caféteria",
-    "floor" : "RDC"
+[
+  {
+    "level0" : [
+      {
+        "category": 4,
+        "space": "1.01",
+        "level": 1,
+        "label": "EPSI/WIS",
+        "icon": "appleheart",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 4,
+        "space": "1.02",
+        "level": 1,
+        "label": "EPSI/WIS",
+        "icon": "bananas",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 4,
+        "space": "1.03",
+        "level": 1,
+        "label": "EPSI/WIS",
+        "icon": "origami",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 2, 
+        "space": "1.04", 
+        "level": 1,
+        "label": "SUP'DE COM",
+        "icon": "dress",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 2, 
+        "space": "1.05", 
+        "level": 1,
+        "label": "SUP'DE COM",
+        "icon": "tree2",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 1,
+        "space": "1.06",
+        "level": 1,
+        "label": "Info",
+        "icon": "avocado",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 1,
+        "space": "1.07",
+        "level": 1,
+        "label": "ADV",
+        "icon": "cake",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 1,
+        "space": "1.08",
+        "level": 1,
+        "label": "Qualité & Pédago",
+        "icon": "mushroom",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 1,
+        "space": "1.09",
+        "level": 1,
+        "label": "Accueil",
+        "icon": "pear",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      }
+    ],
+    "level1" : [
+      {
+        "category": 3,
+        "space": "2.01",
+        "level": 2,
+        "label": "IFAG",
+        "icon": "pepper",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 3,
+        "space": "2.02",
+        "level": 2,
+        "label": "IFAG",
+        "icon": "rocket",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 3, 
+        "space": "2.03", 
+        "level": 2,
+        "label": "IFAG", 
+        "icon": "bug",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 2, 
+        "space": "2.04", 
+        "level": 2,
+        "label": "IEFT", 
+        "icon": "books",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 1, 
+        "space": "2.05", 
+        "level": 2,
+        "label": "IGEFI", 
+        "icon": "eggplant",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 2, 
+        "space": "2.06", 
+        "level": 2,
+        "label": "ICL", 
+        "icon": "strawberry",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 1, 
+        "space": "2.07", 
+        "level": 2,
+        "label": "BDE", 
+        "icon": "heart",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 4, 
+        "space": "2.08", 
+        "level": 2,
+        "label": "MyDIL", 
+        "icon": "wrench",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      }
+    ],
+    "level2": [
+      { 
+        "category": 4, 
+        "space": "3.01", 
+        "level": 3,
+        "label": "EPSI/WIS", 
+        "icon": "tea",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 4, 
+        "space": "3.02", 
+        "level": 3,
+        "label": "EPSI/WIS", 
+        "icon": "pyramid",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 4, 
+        "space": "3.03", 
+        "level": 3,
+        "label": "EPSI/WIS", 
+        "icon": "shoe",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 4, 
+        "space": "3.04", 
+        "level": 1,
+        "label": "EPSI/WIS", 
+        "icon": "shirt",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      { 
+        "category": 4, 
+        "space": "3.05", 
+        "level": 3,
+        "label": "EPSI/WIS", 
+        "icon": "tree",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      }
+    ],
+    "level3": [
+      {
+        "category": 2,
+        "space": "4.01",
+        "level": 4,
+        "label": "SUP'DE COM",
+        "icon": "tomato",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 2,
+        "space": "4.02",
+        "level": 4,
+        "label": "SUP'DE COM",
+        "icon": "cinema",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 3,
+        "space": "4.03",
+        "level": 4,
+        "label": "IDRAC",
+        "icon": "paint-brush",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 3,
+        "space": "4.04",
+        "level": 4,
+        "label": "IDRAC",
+        "icon": "modx",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 3,
+        "space": "4.05",
+        "level": 4,
+        "label": "IDRAC",
+        "icon": "droplet",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 3,
+        "space": "4.06",
+        "level": 4,
+        "label": "IDRAC",
+        "icon": "cupcake",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 3,
+        "space": "4.07",
+        "level": 4,
+        "label": "IDRAC",
+        "icon": "leafcircle",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 3,
+        "space": "4.08",
+        "level": 4,
+        "label": "IDRAC",
+        "icon": "leafcircle",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      },
+      {
+        "category": 1,
+        "space": "4.09",
+        "level": 4,
+        "label": "IET",
+        "icon": "leafcircle",
+        "openingHours": "6:30AM — 11:30PM",
+        "phone": "(0) 66 5738902",
+        "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
+      }
+    ]
   }
-}
+]

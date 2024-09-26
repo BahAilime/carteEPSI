@@ -522,8 +522,8 @@ button:focus {
 	pointer-events: none;
 	font-weight: normal;
 	opacity: 0;
-	-webkit-transform: translate3d(0,-3em,0) translate3d(0,-100%,0);
-	transform: translate3d(0,-3em,0) translate3d(0,-100%,0);
+	/*-webkit-transform: translate3d(0,-3em,0) translate3d(0,-100%,0);*/
+	/*transform: translate3d(0,-3em,0) translate3d(0,-100%,0);*/
 }
 
 .content__item[data-category='1'] .content__item-title {
@@ -708,25 +708,25 @@ button:focus {
 
 .grouped-by-category [data-category='1']:first-child::before,
 .grouped-by-category :not([data-category='1']) + [data-category='1']::before {
-	content: 'Nourish & Refresh';
+	content: 'AUTRE';
 	color: #7cbf7f;
 }
 
 .grouped-by-category [data-category='2']:first-child::before,
 .grouped-by-category :not([data-category='2']) + [data-category='2']::before {
-	content: 'Learn & Create';
+	content: 'SUP\'DE COM';
 	color: #6584c7;
 }
 
 .grouped-by-category [data-category='3']:first-child::before,
 .grouped-by-category :not([data-category='3']) + [data-category='3']::before {
-	content: 'Swap & Give';
+	content: 'IFAG';
 	color: #dc4b7c;
 }
 
 .grouped-by-category [data-category='4']:first-child::before,
 .grouped-by-category :not([data-category='4']) + [data-category='4']::before {
-	content: 'Relax & Recharge';
+	content: 'EPSI/WIS';
 	color: #8d65e0;
 }
 
