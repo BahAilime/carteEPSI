@@ -2,6 +2,7 @@
   {
     "level0" : [
       {
+        "room": "009",
         "category": 4,
         "space": "1.01",
         "level": 1,
@@ -12,6 +13,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "008",
         "category": 4,
         "space": "1.02",
         "level": 1,
@@ -22,6 +24,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "007",
         "category": 4,
         "space": "1.03",
         "level": 1,
@@ -31,7 +34,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "006",
         "category": 2, 
         "space": "1.04", 
         "level": 1,
@@ -41,7 +45,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "005",
         "category": 2, 
         "space": "1.05", 
         "level": 1,
@@ -52,6 +57,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "INFO",
         "category": 1,
         "space": "1.06",
         "level": 1,
@@ -62,6 +68,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "ADV",
         "category": 1,
         "space": "1.07",
         "level": 1,
@@ -72,6 +79,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "QUAL&PEDA",
         "category": 1,
         "space": "1.08",
         "level": 1,
@@ -82,6 +90,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "ACCUEIL",
         "category": 1,
         "space": "1.09",
         "level": 1,
@@ -94,6 +103,7 @@
     ],
     "level1" : [
       {
+        "room": "111",
         "category": 3,
         "space": "2.01",
         "level": 2,
@@ -104,6 +114,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "110",
         "category": 3,
         "space": "2.02",
         "level": 2,
@@ -113,7 +124,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "109B",
         "category": 3, 
         "space": "2.03", 
         "level": 2,
@@ -123,7 +135,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "108",
         "category": 2, 
         "space": "2.04", 
         "level": 2,
@@ -133,7 +146,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "102",
         "category": 1, 
         "space": "2.05", 
         "level": 2,
@@ -143,7 +157,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "101",
         "category": 2, 
         "space": "2.06", 
         "level": 2,
@@ -153,7 +168,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "BDE",
         "category": 1, 
         "space": "2.07", 
         "level": 2,
@@ -163,7 +179,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "MyDIL",
         "category": 4, 
         "space": "2.08", 
         "level": 2,
@@ -175,7 +192,8 @@
       }
     ],
     "level2": [
-      { 
+      {
+        "room": "209B",
         "category": 4, 
         "space": "3.01", 
         "level": 3,
@@ -185,7 +203,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "212",
         "category": 4, 
         "space": "3.02", 
         "level": 3,
@@ -195,7 +214,8 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "212B",
         "category": 4, 
         "space": "3.03", 
         "level": 3,
@@ -205,17 +225,19 @@
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "208",
         "category": 4, 
         "space": "3.04", 
-        "level": 1,
+        "level": 3,
         "label": "EPSI/WIS", 
         "icon": "shirt",
         "openingHours": "6:30AM — 11:30PM",
         "phone": "(0) 66 5738902",
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
-      { 
+      {
+        "room": "207",
         "category": 4, 
         "space": "3.05", 
         "level": 3,
@@ -228,6 +250,7 @@
     ],
     "level3": [
       {
+        "room": "314",
         "category": 2,
         "space": "4.01",
         "level": 4,
@@ -238,6 +261,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "315",
         "category": 2,
         "space": "4.02",
         "level": 4,
@@ -248,6 +272,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "312",
         "category": 3,
         "space": "4.03",
         "level": 4,
@@ -258,6 +283,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "311",
         "category": 3,
         "space": "4.04",
         "level": 4,
@@ -268,6 +294,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "309",
         "category": 3,
         "space": "4.05",
         "level": 4,
@@ -278,6 +305,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "308",
         "category": 3,
         "space": "4.06",
         "level": 4,
@@ -288,6 +316,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "307",
         "category": 3,
         "space": "4.07",
         "level": 4,
@@ -298,6 +327,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "306",
         "category": 3,
         "space": "4.08",
         "level": 4,
@@ -308,6 +338,7 @@
         "description": "Sit dolores veniam ullamcorper erat magna. Feugait luptatum nibh eleifend. Cum facilisis amet ipsum adipiscing amet ea sadipscing elitr et nulla clita sed exerci nonumy sed. Diam sed ea dolores gubergren et voluptua velit eirmod clita facilisis et est lorem gubergren duo aliquyam ipsum dolor. Illum sed zzril sit dolor diam sed."
       },
       {
+        "room": "305",
         "category": 1,
         "space": "4.09",
         "level": 4,

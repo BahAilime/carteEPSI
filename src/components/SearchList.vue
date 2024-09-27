@@ -19,7 +19,7 @@
           class="list__item"
           :data-level="item.level"
           :data-category="item.category"
-          :data-space="item.space"
+          :data-space="item.room"
       >
         <a href="#" class="list__link">{{ item.label }}</a>
       </li>

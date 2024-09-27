@@ -3,6 +3,7 @@ import SearchList from "./components/SearchList.vue"
 import Description from "./components/Description.vue"
 import Campus from "./components/Campus.vue"
 import Path from "./components/Path.vue"
+// import SelectRoom from "@/components/SelectRoom.vue";
 
 
 </script>
@@ -206,6 +207,7 @@ import Path from "./components/Path.vue"
       </symbol>
     </defs>
   </svg>
+<!--  <SelectRoom />-->
   <div class="container">
     <div class="main">
       <header class="codrops-header">

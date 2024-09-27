@@ -9,6 +9,9 @@ const level2Pins = levelData[0]["level1"];
 const level3Pins = levelData[0]["level2"];
 const level4Pins = levelData[0]["level3"];
 
+let source = "002";
+let destination = "204";
+
 /**
  * Converti une liste de noms de "spots" en liste de coordonnées
  * @param {string[]} spots - Liste de nom de spots
@@ -271,11 +274,12 @@ const sortNodes = (nodes) => {
   return categories;
 };
 
-const sortedNodes = sortNodes(shortestPath(graph,'002', '201').nodes);
+const sortedNodes = sortNodes(shortestPath(graph, source, destination).nodes);
 
 </script>
 
 <template>
+
   <div class="levels">
     <div class="level level--1" aria-label="Level 1">
       <h1 class="level__title">RDC: EPSI / ICL / IDRAC / IFAG / WIS</h1>
@@ -367,6 +371,7 @@ const sortedNodes = sortNodes(shortestPath(graph,'002', '201').nodes);
     </div>
   </div>
   <!-- /levels -->
+
 </template>
 
 <style scoped>
